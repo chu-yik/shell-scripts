@@ -1,7 +1,7 @@
 #!/bin/bash
 #react-native-android.sh
 
-if [ "$1" = "staging" ]; then
+if [ "$1" = "debug" ]; then
     react-native run-android --variant='stagingdebug'
 else 
     if [ "$1" = "release" ]; then
